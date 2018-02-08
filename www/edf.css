@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #ebebeb;
+    background-color: #293581;
+    padding: 20px;
+}
+
+a {
+    color: #7fdec7;
+    text-decoration: underline;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #ebebeb;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid #4e5d6c;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tab-content > .active {
+    display: block;
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
